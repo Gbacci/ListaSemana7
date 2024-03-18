@@ -8,6 +8,7 @@
 6) B
 
 7) 
+```javascript
 function Vote(age) {
   if (age < 16) {
     return "Não pode Votar!";
@@ -19,6 +20,7 @@ function Vote(age) {
   }
 const userAge = parseInt(prompt("Enter your age:"));
 alert(verifyVote(userAge));
+```
 
 8)
 Class retangulo extends FormaGeométrica :
@@ -51,17 +53,14 @@ Class Circle extends FormaGeométrica:
       currentSpeed = initialSpeed
       distanceCovered = 0
 
-
     While DistanceCovered < Distância e tempo <= TempoMáximo:
         DistanceCovered = DistanceCovered + CurrentSpeed
         time = time + 1
-
 
         If CurrentSpeed + acceleration <= VelocidadeMáxima:
             CurrentSpeed = CurrentSpeed + Acceleration
         Else:
             currentSpeed = maxSpeed
-
 
     If distanceCovered >= distance:
         Return: "O carro completou a corrida em + time +  minutes."
