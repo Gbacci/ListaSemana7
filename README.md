@@ -1,25 +1,23 @@
 # ListaSemana7
 
 1) B
-2) D
-3) A
-4) B
+2) B
+3) D
+4) D
 5) B
 6) B
 
 7) 
 ```javascript
-function Vote(age) {
-  if (age < 16) {
+function Vote(idade) {
+  if (idade < 16) {
     return "Não pode Votar!";
-  } else if (age >= 16 && age < 18) {
+  } else if (idade >= 16 && idade < 18) {
     return "Voto facultativo!";
   } else {
     return "Voto obrigatório!";
   }
   }
-const userAge = parseInt(prompt("Enter your age:"));
-alert(verifyVote(userAge));
 ```
 
 8)
